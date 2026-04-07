@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Chase Thiel — Software Engineer, QA Automation Engineer, and SDET." />
-    <title>Chase Thiel</title>
+    <meta name="description" content="Chase Thiel — Portfolio" />
+    <title>Portfolio — Chase Thiel</title>
     <link rel="icon" type="image/x-icon" href="assets/img/thielsoftwarelogo.ico" />
 
     <!-- Bootstrap CSS -->
@@ -62,64 +62,73 @@
 
     <main>
 
-      <!-- ======== HERO ======== -->
-      <section class="hero">
-        <div class="hero-content">
-          <span class="hero-eyebrow">// hello, world</span>
-          <h1 class="hero-name">
-            Chase<br><span class="accent">Thiel</span>
-          </h1>
-          <div class="hero-typed-wrapper">
-            <span class="typed"
-              data-typed-items="Software Engineer, Quality Assurance Engineer, Quality Assurance Automation Engineer, Software Developer in Test (SDET), Web Designer, Freelancer">
-            </span>
-          </div>
-          <p class="hero-bio">
-            Software engineer and QA specialist with a passion for building quality software.
-            I specialize in automation frameworks, REST API testing, and delivering reliable,
-            well-tested applications from the ground up.
-          </p>
-          <div class="hero-cta">
-            <a href="resume.html" class="btn-outline-custom">View Resume</a>
-            <a href="portfolio.html" class="btn-primary-custom">View My Work</a>
-          </div>
-        </div>
-      </section>
+      <div class="page-header" style="max-width: 1100px;">
+        <h1>My <span class="accent">Portfolio</span></h1>
+        <p>A collection of projects I've built. More on <a href="https://github.com/cjthiel-byte" target="_blank" rel="noopener">GitHub</a>.</p>
+      </div>
 
-      <!-- ======== WHAT I DO ======== -->
-      <section class="what-i-do">
-        <div class="container" style="max-width: 960px;">
-          <span class="section-label">// what I do</span>
-          <h2 class="section-title">Areas of Focus</h2>
-          <p class="section-subtitle">
-            A few things I bring to every project and team.
-          </p>
-          <div class="row g-4">
-            <div class="col-md-4">
-              <div class="feature-card">
-                <span class="feature-icon"><i class="fas fa-robot"></i></span>
-                <h3>QA Automation</h3>
-                <p>Building and maintaining automated test suites for mobile and REST API testing using Java and the Karate Framework.</p>
-              </div>
+      <div class="portfolio-grid">
+
+        <!-- ======== PROJECT: Mycelium Empire ======== -->
+        <div class="project-card" onclick="window.open('https://myceliumempire.net','_blank')" style="cursor:pointer;">
+          <div class="project-thumbnail thumb-game">
+            <i class="fas fa-seedling thumb-icon"></i>
+            <span class="thumb-label">HTML / CSS / JS</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Mycelium Empire</h3>
+            <p class="project-description">
+              A browser-based idle clicker game where you grow and manage a mycelium empire.
+              Click to harvest spores, unlock upgrades, and expand your fungal network.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
             </div>
-            <div class="col-md-4">
-              <div class="feature-card">
-                <span class="feature-icon"><i class="fas fa-code"></i></span>
-                <h3>Software Development</h3>
-                <p>Crafting web applications and tools with modern stacks — from static front-ends to full-stack Next.js projects.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="feature-card">
-                <span class="feature-icon"><i class="fas fa-magnifying-glass-chart"></i></span>
-                <h3>Code &amp; Design Review</h3>
-                <p>Partnering with engineers and QA teams on code reviews, test strategy, and improving existing automation frameworks.</p>
-              </div>
+            <div class="project-links">
+              <a class="project-link project-link-github"
+                href="https://github.com/cjthiel-byte/Mycelium-Empire"
+                target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a class="project-link project-link-live"
+                href="https://myceliumempire.net"
+                target="_blank" rel="noopener">
+                <i class="fas fa-arrow-up-right-from-square"></i> Live Link
+              </a>
             </div>
           </div>
         </div>
-      </section>
 
+        <!-- ======== PROJECT: Movie Rating Website ======== -->
+        <div class="project-card">
+          <div class="project-thumbnail thumb-movie">
+            <i class="fas fa-film thumb-icon"></i>
+            <span class="thumb-label">Next.js / React</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Movie Rating Website</h3>
+            <p class="project-description">
+              A web application for discovering, rating, and reviewing movies.
+              Browse titles, submit ratings, and share your thoughts on films.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link project-link-github"
+                href="https://github.com/cjthiel-byte/rating-website"
+                target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </main>
 
     <!-- ======== FOOTER ======== -->
@@ -133,8 +142,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Typed.js -->
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
     <!-- Custom scripts -->
     <script src="js/scripts.js"></script>
   </body>
