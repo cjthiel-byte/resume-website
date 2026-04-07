@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Chase Thiel — Resume" />
+    <title>Resume — Chase Thiel</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/thielsoftwarelogo.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Prevent flash of wrong theme -->
+    <script>
+      (function () {
+        var saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.setAttribute('data-theme', saved);
+        else if (window.matchMedia('(prefers-color-scheme: dark)').matches)
+          document.documentElement.setAttribute('data-theme', 'dark');
+      })();
+    </script>
+  </head>
+  <body>
+
+    <!-- ======== NAVBAR ======== -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="index.html">&lt;CT /&gt;</a>
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          </ul>
+          <div class="nav-icons ms-lg-3">
+            <a class="nav-icon-link" href="https://github.com/cjthiel-byte" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a class="nav-icon-link" href="https://www.linkedin.com/in/chase-thiel" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+              <i class="fas fa-moon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <div class="page-header">
+        <h1>My <span class="accent">Resume</span></h1>
+        <p>Software engineer &amp; QA specialist based in Pittsburgh, PA.</p>
+      </div>
+
+      <div class="resume-wrapper">
+
+        <!-- ======== EXPERIENCE ======== -->
+        <div class="resume-section">
+          <h2 class="resume-section-title">Experience</h2>
+
+          <div class="resume-entry">
+            <div class="resume-entry-header">
+              <h3 class="resume-entry-title">Software Test Developer</h3>
+              <span class="resume-entry-date">May 2020 – Present</span>
+            </div>
+            <div class="resume-entry-company">Smith Micro Software Inc &mdash; Pittsburgh, PA</div>
+            <ul>
+              <li>Automate manual test cases for a mobile application using Java.</li>
+              <li>Automate REST API tests between server and app using Karate Framework.</li>
+              <li>Use software principles to improve existing automation framework.</li>
+              <li>Maintain the automation codebase daily.</li>
+              <li>Aid engineers and the quality assurance team with code and design reviews.</li>
+              <li>Practice the agile process on a day-to-day basis.</li>
+              <li>Develop, organize, and maintain records and reports to increase efficiency.</li>
+            </ul>
+          </div>
+
+          <div class="resume-entry">
+            <div class="resume-entry-header">
+              <h3 class="resume-entry-title">Quality Assurance Engineer Intern</h3>
+              <span class="resume-entry-date">May 2019 – Aug 2019</span>
+            </div>
+            <div class="resume-entry-company">Smith Micro Software Inc &mdash; Pittsburgh, PA</div>
+            <ul>
+              <li>Wrote new test cases with clear instructions for reported bugs.</li>
+              <li>Performed manual testing for each build/version and release.</li>
+              <li>Worked within an Agile process while using Jira to track and manage user stories.</li>
+            </ul>
+          </div>
+
+          <div class="resume-entry">
+            <div class="resume-entry-header">
+              <h3 class="resume-entry-title">Residence Hall Network Technician &amp; IT Student Consultant</h3>
+              <span class="resume-entry-date">Aug 2017 – May 2020</span>
+            </div>
+            <div class="resume-entry-company">Penn State Behrend &mdash; Erie, PA</div>
+            <ul>
+              <li>Provide peripheral connection troubleshooting with ethernet and WiFi.</li>
+              <li>Support and maintain computer labs, collaborative workstations, AV resources, and printers in residence halls and instructional lab environments.</li>
+              <li>Entrusted with card access to private residence hall living facilities.</li>
+            </ul>
+          </div>
+
+          <div class="resume-entry">
+            <div class="resume-entry-header">
+              <h3 class="resume-entry-title">Academic Tutor</h3>
+              <span class="resume-entry-date">Mar 2018 – May 2020</span>
+            </div>
+            <div class="resume-entry-company">Penn State Behrend &mdash; Erie, PA</div>
+            <ul>
+              <li>Provide student tutoring in Engineering, Mathematics, and Computer Science courses.</li>
+              <li>Explain detailed and complex problems in a manner to promote understanding of concepts.</li>
+            </ul>
+          </div>
+
+          <div class="resume-entry">
+            <div class="resume-entry-header">
+              <h3 class="resume-entry-title">IT Department Summer Intern</h3>
+              <span class="resume-entry-date">Jun 2014 – Aug 2018</span>
+            </div>
+            <div class="resume-entry-company">West View Water Authority &mdash; Pittsburgh, PA</div>
+            <ul>
+              <li>Installed software and set up computers for employees.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ======== EDUCATION ======== -->
+        <div class="resume-section">
+          <h2 class="resume-section-title">Education</h2>
+
+          <div class="resume-entry">
+            <div class="resume-entry-header">
+              <h3 class="resume-entry-title">Pennsylvania State University, Erie, PA</h3>
+              <span class="resume-entry-date">Aug 2016 – May 2020</span>
+            </div>
+            <div class="resume-entry-company">B.S. Software Engineering &mdash; Mathematics Minor</div>
+            <div class="edu-detail">Graduated May 2020 &mdash; Cum Laude &mdash; GPA: 3.79</div>
+            <div class="edu-detail">Dean's List Fall 2016 – Spring 2020</div>
+            <div class="edu-detail">Behrend Honor Society &middot; National Society of Leadership and Success</div>
+          </div>
+
+          <div class="resume-entry">
+            <div class="resume-entry-header">
+              <h3 class="resume-entry-title">North Hills High School</h3>
+              <span class="resume-entry-date">Aug 2012 – May 2016</span>
+            </div>
+            <div class="resume-entry-company">Magna Cum Laude &mdash; GPA: 3.98</div>
+          </div>
+        </div>
+
+        <!-- ======== SKILLS ======== -->
+        <div class="resume-section">
+          <h2 class="resume-section-title">Skills &amp; Tools</h2>
+
+          <div class="resume-entry">
+            <div class="dev-icons-row">
+              <i class="fab fa-java" title="Java"></i>
+              <i class="fab fa-android" title="Android"></i>
+              <i class="fab fa-apple" title="iOS"></i>
+              <i class="fab fa-node-js" title="Node.js"></i>
+              <i class="fab fa-npm" title="npm"></i>
+              <i class="fab fa-git" title="Git"></i>
+              <i class="fab fa-github" title="GitHub"></i>
+              <i class="fab fa-gitlab" title="GitLab"></i>
+              <i class="fab fa-html5" title="HTML5"></i>
+              <i class="fab fa-css3-alt" title="CSS3"></i>
+              <i class="fab fa-js-square" title="JavaScript"></i>
+              <i class="fab fa-angular" title="Angular"></i>
+              <i class="fab fa-react" title="React"></i>
+              <i class="fab fa-aws" title="AWS"></i>
+              <i class="fab fa-drupal" title="Drupal"></i>
+              <i class="fab fa-squarespace" title="Squarespace"></i>
+            </div>
+            <div class="skills-grid">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Karate Framework</span>
+              <span class="skill-tag">REST API Testing</span>
+              <span class="skill-tag">Test Automation</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">HTML / CSS</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Jira</span>
+              <span class="skill-tag">Agile / Scrum</span>
+              <span class="skill-tag">Mobile Testing</span>
+              <span class="skill-tag">Cross-Browser Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======== INTERESTS ======== -->
+        <div class="resume-section">
+          <h2 class="resume-section-title">Interests</h2>
+          <div class="resume-entry">
+            <p style="color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 0.5rem;">
+              I'm a passionate individual with a diverse range of interests. One of my greatest joys is
+              Dungeons &amp; Dragons — exercising creativity, strategic thinking, and collaborative
+              problem-solving through immersive role-playing.
+            </p>
+            <p style="color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 0.5rem;">
+              Beyond fantasy, I love building and fixing computers — assembling and optimizing systems
+              is both a hobby and a testament to staying current with hardware advancements.
+            </p>
+            <p style="color: var(--color-text-muted); font-size: 0.9rem; margin: 0;">
+              I'm also a sports enthusiast, especially Pittsburgh sports. Whether participating or
+              watching, I believe sports foster teamwork, discipline, and a healthy competitive spirit.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- ======== FOOTER ======== -->
+    <footer>
+      <p style="margin:0;">
+        Built by <a href="https://github.com/cjthiel-byte">Chase Thiel</a> &mdash;
+        <a href="https://github.com/cjthiel-byte">GitHub</a> &middot;
+        <a href="https://www.linkedin.com/in/chase-thiel">LinkedIn</a>
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
